@@ -1,0 +1,36 @@
+<!DOCTYPE >
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>POwerrr</title>
+    <link type="text/css" rel="stylesheet" href="puissance4.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<!-- <div id="test"></div> -->
+	<h2 style="text-align: center">Puissance 4</h2>
+    <div id="game">
+    	
+    </div>
+
+    <script type="text/javascript" src="puissance4.js" charset="utf-8"></script>
+	 <script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){     
+       console.log('ready');
+       var a = 0;
+      
+       
+
+       $('#game').puissance4(/*{
+       		grille : {"case_x": 5 ,"case_y" : 7}/*,
+       		nameplayer1 : "Master",
+        
+          colorplayer2 : "lightblue"
+       }*/
+       );
+    });
+    </script>
+    
+</body>
